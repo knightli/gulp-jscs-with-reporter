@@ -1,19 +1,18 @@
 {
-  "name": "gulp-jscs",
+  "name": "gulp-jscs-with-reporter",
   "version": "1.4.0",
   "description": "Check JavaScript code style with jscs",
   "license": "MIT",
-  "repository": "jscs-dev/gulp-jscs",
+  "repository": "knightli/gulp-jscs-with-reporter",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "knightli",
+    "email": "knightli@foxmail.com"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "pretest": "jscs *.js",
+    "pretest": "jscs *.js reporters",
     "test": "mocha"
   },
   "files": [
